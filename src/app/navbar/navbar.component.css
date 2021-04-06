@@ -10,6 +10,9 @@
 
 .navbar-toggler {
     border: solid 1px #c9bdbd;
-    /* margin-right: 50px; */
 }
 
+.nav-link {
+    color: white;
+    margin-left: 20px;
+}

@@ -92,14 +92,15 @@ img::-moz-selection {
 
 #mainNav {
   position: absolute;
-  border-bottom: 1px solid #e9ecef;
-  background-color: white;
+  /* border-bottom: 1px solid #e9ecef; */
+  /* background-color: white; */
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* color: white; */
 }
 
 #mainNav .navbar-brand {
   font-weight: 800;
-  color: #343a40;
+  color: white;
 }
 
 #mainNav .navbar-toggler {
@@ -171,6 +172,12 @@ img::-moz-selection {
     transform: translate3d(0, 100%, 0);
   }
 }
+@media (max-width:993px){
+  #mainNav .navbar-nav {
+    background-color: rgba(163, 159, 159, 0.05);
+    border-radius: 5%;
+  }
+}
 
 header.masthead {
   margin-bottom: 50px;
@@ -185,7 +192,6 @@ header.masthead .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  /* height: 100%; */
   width: 100%;
   background-color: #212529;
   opacity: 0.5;
