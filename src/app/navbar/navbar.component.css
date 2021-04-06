@@ -5,6 +5,9 @@
 }
 
 #site-name{
-    /* padding-left: 10px; */
+    padding-left: 10px;
 }
 
+.navbar-toggler {
+    border: solid 1px #c9bdbd;
+}
