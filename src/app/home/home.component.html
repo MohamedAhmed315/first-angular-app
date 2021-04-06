@@ -1,3 +1,71 @@
 
 <app-header></app-header>
-<h1 class="text-center text-primary">Home Page</h1>
+<h1 class="text-center text-primary">Reacent Posts</h1>
+ <!-- Main Content -->
+ <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-preview">
+          <a routerLink="sample post">
+            <h2 class="post-title">
+              Man must explore, and this is exploration at its greatest
+            </h2>
+            <h3 class="post-subtitle">
+              Problems look mighty small from 150 miles up
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a routerLink="">Start Bootstrap</a>
+            on {{ date | date: "MMMM dd, yyyy" }}</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a routerLink="error">
+            <h2 class="post-title">
+              I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
+            </h2>
+            <h3 class="post-subtitle">
+                (The link for this post is broken. It will result in <span class="text-danger">"page not found"</span> situation for testing purpose). 
+              </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a routerLink="">Start Bootstrap</a>
+            on {{ date | date: "MMMM dd, yyyy" }}</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a routerLink="sample post">
+            <h2 class="post-title">
+              Science has not yet mastered prophecy
+            </h2>
+            <h3 class="post-subtitle">
+              We predict too much for the next year and yet far too little for the next ten.
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a routerLink="">Start Bootstrap</a>
+            on {{ date | date: "MMMM dd, yyyy" }}</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a routerLink="sample post">
+            <h2 class="post-title">
+              Failure is not an option
+            </h2>
+            <h3 class="post-subtitle">
+              Many say exploration is part of our destiny, but it’s actually our duty to future generations.
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a routerLink="">Start Bootstrap</a>
+            on {{ date | date: "MMMM dd, yyyy" }}</p>
+        </div>
+        <hr>
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" routerLink="">Older Posts &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<app-footer></app-footer>
