@@ -108,7 +108,7 @@ img::-moz-selection {
   font-weight: 800;
   padding: 13px;
   text-transform: uppercase;
-  color: #343a40;
+  color: white;
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
