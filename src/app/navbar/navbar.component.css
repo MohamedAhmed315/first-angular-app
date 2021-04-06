@@ -2,8 +2,6 @@
 #icon-nav {
     width: 10%;
     padding-bottom: 5px;
-    padding-left: 0 ;
-    margin-left: 0;
 }
 
 #site-name{
@@ -12,4 +10,5 @@
 
 .navbar-toggler {
     border: solid 1px #c9bdbd;
+    margin-right: 50px;
 }
