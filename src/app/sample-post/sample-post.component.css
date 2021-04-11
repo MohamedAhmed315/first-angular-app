@@ -1,0 +1,11 @@
+header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../assets/img/post-bg.jpg');
+
+}
+
+article p {
+    line-height: 1.5;
+    margin: 30px auto;
+    width: 70%
+  }

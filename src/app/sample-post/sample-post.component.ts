@@ -11,5 +11,5 @@ export class SamplePostComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  date = new Date();
 }
