@@ -10,10 +10,8 @@ export class NavbarComponent implements OnInit {
   constructor() { }
   ngOnInit(): void {
   }
+  public isMenuCollapsed = true;
   
-  isCollapsed = false;
-  
-
   
 }
 
